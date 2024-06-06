@@ -1,0 +1,63 @@
+
+# Arabam Kac Para Login
+*"https://www.arabam.com/" linkine gidilir
+*"4" saniye beklenir
+*"(//span[@class='ins-close-button'])[1]" xpath'li elemente tiklanir
+*"(//button[normalize-space()='Kabul Et'])[1]" xpath'li elemente tiklanir
+*"//a[@id='price-suggestion']//p[1]" xpath'li elemente tiklanir
+*"(//span[contains(text(),'Satıcıyım')])[1]" li elementin texti ile "Satıcıyım" ile karsilastirilir
+*"(//span[contains(text(),'Satıcıyım')])[1]" xpath'li elemente tiklanir
+*"(//input[@id='emailOrPhone'])[1]" ' li elemente "5448372088" yazilir
+*"(//input[@id='password'])[1]" li elemente "Yqqgu12tl1." yazilip enter'e tiklanir
+*"(//span[text()='hasancan işbeceren'])[1]" li elementin varliği kontrol edilir
+
+
+# Arabam Kac Para
+*"(//span[contains(text(),'Satıcıyım')])[1]" li elementin texti ile "Satıcıyım" ile karsilastirilir
+*"(//span[contains(text(),'Satıcıyım')])[1]" xpath'li elemente tiklanir
+*"(//span[contains(text(),'Audi')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='Audi'])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(text(),'2023')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='2023'])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(text(),'A3')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='A3'])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(text(),'Sedan')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='Sedan'])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(text(),'Hibrit')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='Hibrit'])[1]" li elementin varliği kontrol edilir
+*"(//span[normalize-space()='Yarı Otomatik'])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='Yarı Otomatik'])[1]" li elementin varliği kontrol edilir
+*"(//button[contains(text(),'Aracı Seç')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[contains(text(),'A3 35 TFSI MHEV Advanced S-Tronic 150hp')])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(text(),'Beyaz')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[contains(text(),'Beyaz')])[1]" li elementin varliği kontrol edilir
+*"(//input[contains(@placeholder,'Aracınızın kilometresi')])[1]" ' li elemente "40000" yazilir
+*"(//button[normalize-space()='Devam Et'])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='40000 km'])[1]" li elementin varliği kontrol edilir
+*"(//span[contains(@class,'checkbox-title')])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//button[normalize-space()='Devam Et'])[1]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//span[normalize-space()='Panoramik Cam Tavan'])[1]" li elementin varliği kontrol edilir
+*"1" saniye beklenir
+*"(//span)[66]" xpath'li elemente tiklanir
+*"1" saniye beklenir
+*"(//*[name()='path'][@id='path-item12'])[1]" li elementin class degeri ile "changed hover" karsilastirilir
+*"(//select[@required='required'])[1]" xpath'li elemente tiklanir
+*"(//select[@required='required'])[1]" dropdown menude "1" tiklanir
+*"(//input[@id='tramer-input'])[1]" ' li elemente "10000" yazilir
+*"1" saniye beklenir
+//*"(//div[@class='current-step'])[1]" xpath'li elemente tiklanir //captcha
+*"1" saniye beklenir
+*"(//span[contains(text(),'Fiyat Öğren')])[1]" xpath'li elemente tiklanir
+*"(//div[@class='sales-day'])[1]" li elementin varliği kontrol edilir
+
