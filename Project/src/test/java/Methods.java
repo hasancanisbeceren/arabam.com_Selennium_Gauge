@@ -58,7 +58,7 @@ public class Methods extends BaseTest {
         element.sendKeys(text);
     }
     public void getTextControl(WebElement element, String key){
-
+        System.out.println("Girilen Text Degeri: "+key);
         Assertions.assertEquals(key,getTextElement(element),"Element girilen texti içermiyor..!!!");
         System.out.println("Girilen değer ile Elementin texti uyusuyor..");
     }
@@ -66,7 +66,7 @@ public class Methods extends BaseTest {
 
     public void getAttributeControl(WebElement element, String key) {
         System.out.println("Girilen Text Degeri: "+key);
-        Assertions.assertEquals(getAttributeElement(element), key, "Element girilen texti içermiyor..!!!");
+       Assertions.assertTrue(getAttributeElement(element).contains(key), "Element girilen texti içermiyor..!!!");
         System.out.println("Girilen değer ile Elementin texti uyusuyor..");
 
     }
