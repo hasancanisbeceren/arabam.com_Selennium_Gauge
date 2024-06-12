@@ -8,7 +8,7 @@
 *"(//span[contains(text(),'Satıcıyım')])[1]" li elementin texti ile "Satıcıyım" ile karsilastirilir
 *"(//span[contains(text(),'Satıcıyım')])[1]" xpath'li elemente tiklanir
 *"(//input[@id='emailOrPhone'])[1]" ' li elemente "5448372088" yazilir
-*"(//input[@id='password'])[1]" li elemente "Yqqgu12tl1." yazilip enter'e tiklanir
+*"(//input[@id='password'])[1]" li elemente "tttyyyttt." yazilip enter'e tiklanir
 *"(//span[text()='hasancan işbeceren'])[1]" li elementin varliği kontrol edilir
 
 
